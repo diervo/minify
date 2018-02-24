@@ -1,6 +1,6 @@
 {
   "name": "babel7-plugin-minify-numeric-literals",
-  "version": "0.3.0",
+  "version": "0.0.1",
   "description": "Shortens numeric literals using scientific notation",
   "keywords": [
     "babel-minify",

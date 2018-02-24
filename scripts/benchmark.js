@@ -9,7 +9,7 @@ const CLITable = require("cli-table");
 const child = require("child_process");
 const bytes = require("bytes");
 const chalk = require("chalk");
-const babel = require("babel-core");
+const babel = require("@babel/core");
 const zlib = require("zlib");
 const fs = require("fs");
 const path = require("path");
@@ -55,7 +55,7 @@ class Benchmark {
       gzipped,
       filename,
       items: [
-        this.test(this["babel-minify"], code),
+        this.test(this["babel7-minify"], code),
         this.test(this["uglify"], code),
         this.test(this["closure-compiler"], filename, false),
         this.test(this["closure-compiler-js"], code),

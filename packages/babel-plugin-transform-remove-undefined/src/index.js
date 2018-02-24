@@ -1,6 +1,6 @@
 "use strict";
 
-const evaluate = require("babel-helper-evaluate-path");
+const evaluate = require("babel7-helper-evaluate-path");
 
 function isPureAndUndefined(
   rval,

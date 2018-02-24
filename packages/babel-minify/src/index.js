@@ -1,5 +1,5 @@
 const babelCore = require("@babel/core");
-const babelPresetMinify = require("babel-preset-minify");
+const babelPresetMinify = require("babel7-preset-minify");
 
 module.exports = function babelMinify(
   input,

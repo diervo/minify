@@ -1,6 +1,6 @@
 "use strict";
 
-const evaluate = require("babel-helper-evaluate-path");
+const evaluate = require("babel7-helper-evaluate-path");
 // Assuming all the static methods from below array are side effect free evaluation
 // except Math.random
 const VALID_CALLEES = ["String", "Number", "Math"];

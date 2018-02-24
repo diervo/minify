@@ -68,7 +68,7 @@ function replaceObject(t, path) {
     t.isIdentifier(node.callee, { name: "Object" }) &&
     !path.scope.getBinding("Object")
   ) {
-    const isVoid0 = require("babel-helper-is-void-0")(t);
+    const isVoid0 = require("babel7-helper-is-void-0")(t);
     const arg = node.arguments[0];
     const binding =
       arg && t.isIdentifier(arg) && path.scope.getBinding(arg.name);

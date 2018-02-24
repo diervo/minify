@@ -63,7 +63,7 @@ function run(inputFile) {
     const parseTimeDiff = baseParseTime - parseTime;
 
     table.push([
-      name.split("babel-plugin-")[1],
+      name.split("babel7-plugin-")[1],
       len(output),
       len(gzippedOutput),
       percentage.toFixed(3),
@@ -98,7 +98,7 @@ function getPlugins() {
     .readdirSync(path.join(__dirname, "../packages"))
     .filter(dir => {
       if (!isDir(path.join(__dirname, "../packages", dir))) return false;
-      if (dir.indexOf("babel-plugin-") !== 0) return false;
+      if (dir.indexOf("babel7-plugin-") !== 0) return false;
       try {
         require(`../packages/${dir}`);
         return true;

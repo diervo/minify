@@ -10,7 +10,7 @@ const {
   markEvalScopes,
   isMarked: isEvalScopesMarked,
   hasEval
-} = require("babel-helper-mark-eval-scopes");
+} = require("babel7-helper-mark-eval-scopes");
 
 const newIssueUrl = "https://github.com/babel/minify/issues/new";
 

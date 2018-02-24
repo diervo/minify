@@ -1,5 +1,5 @@
 {
   "plugins": [
-    "minify-simplify"
+    "babel7-plugin-minify-simplify"
   ]
 }

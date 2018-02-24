@@ -2,7 +2,7 @@
 jest.setTimeout(25000);
 const fs = require("./fs");
 const path = require("path");
-const babel = require("babel-core");
+const babel = require("@babel/core");
 const parseArgs = require("./argParser");
 
 /**
@@ -66,7 +66,8 @@ function testRunner(dir) {
         const currentPlugin = pathJoin(pkgDir, "src/index.js");
 
         if (Array.isArray(babelOpts.plugins)) {
-          babelOpts.plugins = [[currentPlugin, options], ...babelOpts.plugins];
+          const fnPlugins = babelOpts.plugins.map(p => require(p));
+          babelOpts.plugins = [[currentPlugin, options], ...fnPlugins];
         } else {
           babelOpts.plugins = [[currentPlugin, options]];
         }

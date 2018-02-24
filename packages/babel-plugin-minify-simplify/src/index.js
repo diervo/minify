@@ -1,8 +1,8 @@
 "use strict";
 
 module.exports = ({ types: t }) => {
-  const flipExpressions = require("babel-helper-flip-expressions")(t);
-  const toMultipleSequenceExpressions = require("babel-helper-to-multiple-sequence-expressions")(
+  const flipExpressions = require("babel7-helper-flip-expressions")(t);
+  const toMultipleSequenceExpressions = require("babel7-helper-to-multiple-sequence-expressions")(
     t
   );
   const ifStatement = require("./if-statement")(t);

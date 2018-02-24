@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = function({ types: t }) {
-  const isVoid0 = require("babel-helper-is-void-0")(t);
+  const isVoid0 = require("babel7-helper-is-void-0")(t);
 
   return {
     name: "minify-flip-comparisons",

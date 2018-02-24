@@ -1,9 +1,9 @@
 "use strict";
 
 const some = require("lodash.some");
-const { markEvalScopes, hasEval } = require("babel-helper-mark-eval-scopes");
+const { markEvalScopes, hasEval } = require("babel7-helper-mark-eval-scopes");
 const removeUseStrict = require("./remove-use-strict");
-const evaluate = require("babel-helper-evaluate-path");
+const evaluate = require("babel7-helper-evaluate-path");
 
 function prevSiblings(path) {
   const parentPath = path.parentPath;
@@ -24,7 +24,7 @@ function forEachAncestor(path, callback) {
 }
 
 module.exports = ({ types: t, traverse }) => {
-  const removeOrVoid = require("babel-helper-remove-or-void")(t);
+  const removeOrVoid = require("babel7-helper-remove-or-void")(t);
   const shouldRevisit = Symbol("shouldRevisit");
 
   // this is used for tracking fn params that can be removed

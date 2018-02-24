@@ -1,6 +1,6 @@
 {
   "name": "babel7-helper-to-multiple-sequence-expressions",
-  "version": "0.0.1",
+  "version": "7.0.0",
   "description": "",
   "keywords": [
     "babel-plugin"

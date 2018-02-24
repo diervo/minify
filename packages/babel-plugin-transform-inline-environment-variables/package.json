@@ -1,5 +1,5 @@
 {
-  "name": "babel-plugin-transform-inline-environment-variables",
+  "name": "babel7-plugin-transform-inline-environment-variables",
   "version": "0.3.0",
   "description": "Inline environment variables.",
   "keywords": [

@@ -1,5 +1,5 @@
 {
-  "name": "babel-helper-evaluate-path",
+  "name": "babel7-helper-evaluate-path",
   "version": "0.3.0",
   "description": "path.evaluate wrapped in a try catch",
   "keywords": [

@@ -1,5 +1,5 @@
 {
-  "name": "babel-plugin-transform-minify-booleans",
+  "name": "babel7-plugin-transform-minify-booleans",
   "version": "6.9.0",
   "description": "Turn boolean literals into !0 for true and !1 for false.",
   "keywords": [

@@ -1,5 +1,5 @@
 {
-  "name": "babel-plugin-transform-property-literals",
+  "name": "babel7-plugin-transform-property-literals",
   "version": "6.9.0",
   "description": "Turn valid property key literals to plain identifiers",
   "keywords": [

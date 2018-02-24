@@ -1,5 +1,5 @@
 {
-  "name": "babel-plugin-transform-regexp-constructors",
+  "name": "babel7-plugin-transform-regexp-constructors",
   "version": "0.3.0",
   "description": "This changes RegExp constructors into literals if the RegExp arguments are strings.",
   "keywords": [

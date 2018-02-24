@@ -1,5 +1,5 @@
 {
-  "name": "babel-plugin-transform-member-expression-literals",
+  "name": "babel7-plugin-transform-member-expression-literals",
   "version": "6.9.0",
   "description": "Turn valid member expression property literals into plain identifiers",
   "keywords": [

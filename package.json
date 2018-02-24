@@ -13,6 +13,7 @@
     "lint": "eslint .",
     "publish": "git pull origin master --rebase && npm run build && npm test && lerna publish",
     "publish-master": "lerna publish -c --yes -m 'chore(canary): publish %s'",
+    "release:custom": "lerna publish --exact --force-publish=* --registry='https://npm.lwcjs.org'",
     "test": "jest",
     "test-ci": "npm run bootstrap && npm run build && npm run coverage",
     "updated": "lerna updated",

@@ -1,5 +1,5 @@
 {
-  "name": "babel-helper-mark-eval-scopes",
+  "name": "babel7-helper-mark-eval-scopes",
   "version": "0.3.0",
   "description": "Mark scopes for deopt which contain a direct eval call",
   "keywords": [

@@ -14,7 +14,7 @@ function isPureAndUndefined(
     return true;
   }
 
-  if (!rval.isPure()) {
+  if (!rval.scope || !rval.isPure()) {
     return false;
   }
   const evaluation = evaluate(rval, { tdz });
